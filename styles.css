@@ -1,0 +1,60 @@
+@font-face {
+  font-family: ColoredCrayons;
+  src: url('ColoredCrayons-7wPR.ttf');
+}
+/* custom font: https://www.fontspace.com/colored-crayons-font-f15640 created by John Harris */
+
+h1 {
+  font-family: ColoredCrayons;
+  text-align: center;
+  font-size: 40px;
+}
+
+body {
+  background-color: #f5f3ef;
+}
+
+.button {
+  border-radius: 12px;
+  font-size: 16px;
+  border: none;
+  padding: 5px 5px;
+  background-color: black;
+  color: white;
+  font-family: ColoredCrayons;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c {
+  height: 37.375px;
+  width: 37.375px;
+}
+
+.container {
+  border: solid;
+  height: 598px;
+  width: 598px;
+  box-shadow: 5px 10px LightGray;
+  background-color: white;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.range-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
